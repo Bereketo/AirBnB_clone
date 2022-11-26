@@ -45,7 +45,7 @@ The shell should work like this in interactive mode:
 ```
 $ ./console.py
 (hbnb) help
-
+$
 Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
@@ -73,6 +73,22 @@ Documented commands (type help <topic>):
 EOF  help  quit
 (hbnb)
 
-## Authors
+## Testing :straight_ruler:
+
+Unittests for the HolbertonBnB project are defined in the [tests](./tests)
+folder. To run the entire test suite simultaneously, execute the following command:
+
+```
+$ python3 unittest -m discover tests
+```
+
+Alternatively, you can specify a single test file to run at a time:
+ 
+```
+$ python3 unittest -m tests/test_console.py
+
+
+
+## Author
 
 * **Bereket Alebachew** <[Bereketo](https://github.com/Bereketo/AirBnB_clone)>
