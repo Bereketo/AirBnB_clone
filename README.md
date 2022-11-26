@@ -73,6 +73,6 @@ Documented commands (type help <topic>):
 EOF  help  quit
 (hbnb)
 
-## Author
+### Author
 
 * **Bereket Alebachew** <[Bereketo](https://github.com/Bereketo/AirBnB_clone)>
