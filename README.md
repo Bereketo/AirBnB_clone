@@ -74,4 +74,5 @@ EOF  help  quit
 (hbnb)
 
 ## Author
-[Bereket Alebachew](https://github.com/Bereketo/AirBnB_clone)
+
+* **Bereket Alebachew** <[Bereketo](https://github.com/Bereketo/AirBnB_clone)>
