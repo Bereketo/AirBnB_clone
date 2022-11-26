@@ -1,6 +1,6 @@
-#This is AirBnB clone - The console Project for Alx-School
+## This is AirBnB clone - The console Project for Alx-School
 ![Optional Text](hbnb.png)
-#This project Includes the concepts mentioned below:
+## This project Includes the concepts mentioned below:
       ** Creating a Python package
       ** Creating a command interpreter in Python using the cmd module
       ** About Unit testing and how to implement it in a large project
