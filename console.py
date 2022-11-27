@@ -33,10 +33,7 @@ class HBNBCommand(cmd.Cmd):
     Attr_missing = "** attribute name missing **"
     Value_missing = "** value missing **"
 
-    def __init__(self):
-        """Initializes the prompt """
-        cmd.Cmd.__init__(self)
-        self.prompt = '(hbnb) '
+    prompt = '(hbnb) '
 
     def precmd(self, line):
         """Defines instructions to execute before <line> is interpreted.
