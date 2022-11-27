@@ -1,5 +1,10 @@
-#!/usr/bin/python
-"""A class that inherits from Cmd class """
+#!/usr/bin/python3
+"""A class that inherits from Cmd class
+It allows us to interactively and non-interactively:
+    - create a data model
+    - manage (create, update, destroy, etc) objects via a console / interpreter
+    - store and persist objects to a file (JSON file)
+"""
 
 import cmd
 import json
