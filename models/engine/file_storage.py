@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Defines a class FileStorage"""
+"""Defines a class FileStorage
+"""
 
 from models.base_model import BaseModel
 from models.user import User
@@ -12,7 +13,7 @@ import os
 import json
 
 
-class FileStorage:
+class FileStorage():
     """serializes instances to a JSON file
     and deserializes JSON file to instances
 
@@ -42,7 +43,7 @@ class FileStorage:
 
     def save(self):
         """serializes __objects to the JSON file """
-        with open("file.json", "a", encoding="utf-8") as js:
+        with open(FileStorage.__file_path, 'w') as js:
             json.dump(
                 {k: v.to_dict() for k, v in FileStorage.__objects.items()}, js)
 
@@ -52,8 +53,10 @@ class FileStorage:
         current_classes = {'BaseModel': BaseModel, 'User': User,
                            'Amenity': Amenity, 'City': City, 'State': State,
                            'Place': Place, 'Review': Review}
-        if not FileStorage.__file_path:
+
+        if not os.path.exists(FileStorage.__file_path):
             return
+
         des = None
         try:
             with open(FileStorage.__file_path, "r") as jr:
