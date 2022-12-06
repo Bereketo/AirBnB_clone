@@ -4,14 +4,9 @@ header{
       height: 70px;
       width: 100%;
       border-bottom: 1px solid #CCCCCC;
+      
+
+      background-image: url("../images/logo.png");
+      background-repeat: no-repeat;
+      background-position: 20px center;
       }
-
-
-.logo {
-    background: url("../images/logo.png") 
-    backgrond-repeat: no-repeat;
-    background-position: left;
-    display: block;
-    height: 100%;
-    margin-left: 20px;
-}
